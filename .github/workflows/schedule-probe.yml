@@ -2,7 +2,7 @@ name: Schedule probe (diagnostico temporal)
 
 on:
   schedule:
-    - cron: '3-59/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
