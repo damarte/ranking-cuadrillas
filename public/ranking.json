@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-11T18:10:07.459Z",
+  "updated_at": "2026-09-11T19:23:40.802Z",
   "ranking": [
-    {
-      "id": "133991",
-      "nombre": "Peña Parrilla",
-      "votos": 321
-    },
     {
       "id": "134820",
       "nombre": "Las ideales",
-      "votos": 314
+      "votos": 323
+    },
+    {
+      "id": "133991",
+      "nombre": "Peña Parrilla",
+      "votos": 322
     },
     {
       "id": "138817",
       "nombre": "Reserva del 87",
-      "votos": 249
+      "votos": 252
     },
     {
       "id": "133907",
