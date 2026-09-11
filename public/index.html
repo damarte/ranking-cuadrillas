@@ -170,12 +170,16 @@
 
     async function refresh() {
       try {
-        const res = await fetch('./ranking.json');
+        const res = await fetch('./ranking.json?t=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
         if (data.error) throw new Error(data.error);
-        render(data);
-        statusEl.textContent = 'Actualizado: ' + new Date().toLocaleTimeString('es-ES');
+        const list = Array.isArray(data) ? data : data.ranking;
+        render(list);
+        const gen = !Array.isArray(data) && data.updated_at
+          ? new Date(data.updated_at).toLocaleString('es-ES')
+          : '—';
+        statusEl.textContent = 'Actualizado: ' + new Date().toLocaleTimeString('es-ES') + ' · Datos: ' + gen;
         statusEl.className = 'status ok';
       } catch (e) {
         statusEl.textContent = 'Error: ' + e.message;

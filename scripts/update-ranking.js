@@ -40,7 +40,8 @@ async function main() {
   const ranking = cuadrillas
     .map((c) => ({ id: c.id, nombre: c.nombre, votos: votos[c.id] || 0 }))
     .sort((a, b) => b.votos - a.votos);
-  fs.writeFileSync(OUT_PATH, JSON.stringify(ranking, null, 2) + '\n');
+  const payload = { updated_at: new Date().toISOString(), ranking };
+  fs.writeFileSync(OUT_PATH, JSON.stringify(payload, null, 2) + '\n');
   const total = ranking.reduce((s, c) => s + c.votos, 0);
   console.log(`OK: ${ranking.length} cuadrillas, ${total} votos -> ${OUT_PATH}`);
 }
