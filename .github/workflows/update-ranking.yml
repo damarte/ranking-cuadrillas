@@ -3,8 +3,8 @@ name: Update ranking
 
 on:
   schedule:
-    # Cada 5 min evitando el minuto 0 (la doc advierte de caidas por carga al inicio de cada hora)
-    - cron: '1-59/5 * * * *'
+    # Cada 15 min evitando el minuto 0 (la doc advierte de caidas por carga al inicio de cada hora)
+    - cron: '3-59/15 * * * *'
   workflow_dispatch:
 
 permissions:
