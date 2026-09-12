@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-12T08:29:15.472Z",
+  "updated_at": "2026-09-12T11:56:47.918Z",
   "ranking": [
     {
       "id": "134820",
       "nombre": "Las ideales",
-      "votos": 339
+      "votos": 347
     },
     {
       "id": "133991",
       "nombre": "Peña Parrilla",
-      "votos": 336
+      "votos": 338
     },
     {
       "id": "138817",
       "nombre": "Reserva del 87",
-      "votos": 262
+      "votos": 270
     },
     {
       "id": "135871",
@@ -92,6 +92,11 @@
       "votos": 7
     },
     {
+      "id": "133418",
+      "nombre": "Macalister",
+      "votos": 4
+    },
+    {
       "id": "138437",
       "nombre": "Kings League",
       "votos": 3
@@ -100,11 +105,6 @@
       "id": "133415",
       "nombre": "Juventud estrella",
       "votos": 3
-    },
-    {
-      "id": "133418",
-      "nombre": "Macalister",
-      "votos": 2
     },
     {
       "id": "133412",
