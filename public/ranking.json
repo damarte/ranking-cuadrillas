@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T06:30:26.060Z",
+  "updated_at": "2026-09-13T10:33:21.466Z",
   "ranking": [
     {
       "id": "134820",
@@ -112,6 +112,11 @@
       "votos": 1
     },
     {
+      "id": "573",
+      "nombre": "Maletero",
+      "votos": 1
+    },
+    {
       "id": "135481",
       "nombre": "El tasista",
       "votos": 0
@@ -129,11 +134,6 @@
     {
       "id": "645",
       "nombre": "PICARAZAS Y PALOMOS",
-      "votos": 0
-    },
-    {
-      "id": "573",
-      "nombre": "Maletero",
       "votos": 0
     }
   ]
