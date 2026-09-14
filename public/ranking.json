@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T01:20:33.432Z",
+  "updated_at": "2026-09-14T06:41:25.004Z",
   "ranking": [
     {
       "id": "134820",
@@ -12,11 +12,6 @@
       "votos": 343
     },
     {
-      "id": "138817",
-      "nombre": "Reserva del 87",
-      "votos": 277
-    },
-    {
       "id": "135871",
       "nombre": "Koldo y la banda",
       "votos": 216
@@ -25,6 +20,11 @@
       "id": "133907",
       "nombre": "MASHOS",
       "votos": 213
+    },
+    {
+      "id": "138817",
+      "nombre": "Reserva del 87",
+      "votos": 189
     },
     {
       "id": "133406",
