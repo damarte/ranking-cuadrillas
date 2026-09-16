@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T05:03:24.452Z",
+  "updated_at": "2026-09-16T09:56:26.748Z",
   "ranking": [
     {
       "id": "134820",
@@ -9,7 +9,7 @@
     {
       "id": "133991",
       "nombre": "Peña Parrilla",
-      "votos": 343
+      "votos": 344
     },
     {
       "id": "133907",
@@ -49,7 +49,7 @@
     {
       "id": "135588",
       "nombre": "La bombilla",
-      "votos": 60
+      "votos": 61
     },
     {
       "id": "135066",
@@ -90,11 +90,6 @@
       "id": "135862",
       "nombre": "Los Españoles",
       "votos": 7
-    },
-    {
-      "id": "133418",
-      "nombre": "Macalister",
-      "votos": 4
     },
     {
       "id": "138437",
